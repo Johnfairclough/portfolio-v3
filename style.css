@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+
+}
+
+/* navigation */
+
+header {
+  display: flex;
+  justify-content: center;
+  background: #F8F8F8;
+  opacity: 0.6;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  text-align: center;
+}
+
+footer {}
+
+
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li {
+  list-style: none;
+  padding: 30px 40px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1;
+  color: black;
+}
+
+.navigation ul li a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0.1;
+}
+
+.current {
+  opacity: 0.1;
+}
+
+/* HOME */
+.home {
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1em;
+}
+
+/* PORTFOLIO */
+
+
+.projects {
+  width: 100%;
+  padding-top: 50px;
+
+
+}
+
+.project {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.project a {
+  width: 100%;
+
+}
+
+.project img {
+  width: 60%;
+}
+
+
+
+
+
+
+
+
+
+/* BLOG */
+/* LOGO */
+
+.logo {
+  text-align: center;
+  padding-right: 84px;
+  padding-top: 50px;
+
+
+}
+
+.spin {
+  animation: spin 30s linear infinite;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.jf {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  padding-left: 0.5px;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  opacity: 1;
+}
+
+.jf:hover {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+.scroll-d {
+  text-align: center;
+  padding-top: 200px;
+
+
+}
+
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.animate-flicker .a {
+  -webkit-animation: flickerAnimation 6s infinite;
+  -moz-animation: flickerAnimation 6s infinite;
+  -o-animation: flickerAnimation 6s infinite;
+  animation: flickerAnimation 6s infinite;
+}
+
+.animate-flicker .b {
+  -webkit-animation: flickerAnimation 8s infinite;
+  -moz-animation: flickerAnimation 8s infinite;
+  -o-animation: flickerAnimation 8s infinite;
+  animation: flickerAnimation 8s infinite;
+}
+
+.animate-flicker .c {
+  -webkit-animation: flickerAnimation 10s infinite;
+  -moz-animation: flickerAnimation 10s infinite;
+  -o-animation: flickerAnimation 10s infinite;
+  animation: flickerAnimation 10s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+.contact {
+  display: flex;
+  margin-top: 100px;
+
+}
+
+.details {
+  flex: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fafafa;
+}
+
+.details div {
+  display: flex;
+  justify-content: center;
+}
+
+.details h3,
+p,
+a {
+  padding-top: 20px;
+}
+
+.details img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+.copy {
+  width: 30px;
+  border: none;
+  background: none;
+}
+
+.copy:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.email {
+  white-space: nowrap;
+}
+
+.email h3 {
+  padding-right: 10px;
+
+}
+
+
+.social-links {
+  background: #F8F8F8;
+  color: #333;
+  width: 25px;
+  height: 25px;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+
+.form {
+  flex: 50%;
+}
+
+form {
+  text-align: center;
+  background: #fafafa;
+}
+
+form div {
+  padding-top: 50px;
+}
+
+label {
+  color: red;
+  width: 400px;
+  font-size: 1.5em;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  border: 1.5px solid #808080;
+  border-radius: 1px;
+}
+
+.message {
+  height: 60px;
+  width: 400px;
+  border: 1.5px solid #808080;
+}
+
+.button {
+  width: 400px;
+  border: 1px solid #333;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+  .contact {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.

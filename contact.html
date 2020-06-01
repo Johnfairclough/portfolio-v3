@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>John Fairclough | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Arapey|Caveat|Cormorant+Garamond|Nunito|Parisienne|Sorts+Mill+Goudy|Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ca70d8cec7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li class="fade-in one"><a href="index.html">HOME</a></li>
+          <li class="fade-in two"><a href="portfolio.html">PORTFOLIO</a></li>
+          <li class="fade-in three"><a href="blog.html">BLOG</a></li>
+          <li class="fade-in four current">
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="title">
+      <h1>CONTACT</h1>
+    </div>
+
+    <div class="contact">
+      <div class="details">
+        <img src="img/Profile.JPG" alt="" />
+        <h3>DEVELOPER</h3>
+        <h3>JOHN FAIRCLOUGH</h3>
+        <div class="email">
+          <h3 id="clip" class="js-emaillink">
+            JOHNMFAIRCLOUGH@GMAIL.COM<button class="js-emailcopybtn copy">
+              <i class="far fa-copy"></i>
+            </button>
+          </h3>
+        </div>
+        <a href="img/JohnFaircloughCV.pdf" download target="_blank"
+          ><h3>curriculum vitae</h3></a
+        >
+        <h3>SOUTH WEST LONDON</h3>
+        <button class="social-links" name="button">
+          <a href="https://github.com/Johnfairclough" target="_blank"
+            ><i class="fab fa-github-square fa-2x"></i
+          ></a>
+        </button>
+        <button class="social-links" name="button">
+          <a href="https://github.com/Johnfairclough" target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </button>
+      </div>
+
+      <div class="form">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          id="form"
+          action="./thankYou.html"
+        >
+          <div>
+            <label>name</label><br />
+            <input
+              type="text"
+              name="name"
+              class=""
+              id="input_name"
+              placeholder="Name.."
+            />
+          </div>
+          <div>
+            <label>email</label><br />
+            <input
+              type="text"
+              name="name"
+              class=""
+              id="input_name"
+              placeholder="Email.."
+            />
+          </div>
+          <div>
+            <label>message</label><br />
+            <label
+              ><textarea
+                name="message"
+                id="input_message"
+                class="message"
+                placeholder="Message.."
+                style="resize: none;"
+              ></textarea
+            ></label>
+          </div>
+          <div>
+            <button type="submit" class="button" id="input_button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
