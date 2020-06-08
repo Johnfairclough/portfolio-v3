@@ -37,7 +37,7 @@ header {
   z-index: 1;
   padding: 0 10%;
   align-items: center;
-  height: 8vh;
+  height: 80px;
 }
 
 
@@ -183,91 +183,6 @@ footer {
 /* PORTFOLIO */
 
 
-.scroll-d {
-  text-align: center;
-  padding-top: 50px;
-}
-
-
-@keyframes flickerAnimation {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes flickerAnimation {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes flickerAnimation {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes flickerAnimation {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.animate-flicker .a {
-  -webkit-animation: flickerAnimation 6s infinite;
-  -moz-animation: flickerAnimation 6s infinite;
-  -o-animation: flickerAnimation 6s infinite;
-  animation: flickerAnimation 6s infinite;
-}
-
-.animate-flicker .b {
-  -webkit-animation: flickerAnimation 8s infinite;
-  -moz-animation: flickerAnimation 8s infinite;
-  -o-animation: flickerAnimation 8s infinite;
-  animation: flickerAnimation 8s infinite;
-}
-
-.animate-flicker .c {
-  -webkit-animation: flickerAnimation 10s infinite;
-  -moz-animation: flickerAnimation 10s infinite;
-  -o-animation: flickerAnimation 10s infinite;
-  animation: flickerAnimation 10s infinite;
-}
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
@@ -276,6 +191,8 @@ footer {
   cursor: pointer;
   transition: transform 1s ease-in-out;
   opacity: 1;
+  background: #fafafa;
+  padding: 50px 0;
 }
 
 .grid-container:hover .grid-item {
@@ -489,7 +406,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  height: 528px;
 
 }
 
@@ -515,7 +432,7 @@ footer {
 
 .copy:hover {
   cursor: pointer;
-  color: red;
+  color: #35475F;
 }
 
 .email {
@@ -529,6 +446,15 @@ footer {
 
 .cv {
   color: #061D37;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.cv i {
+  padding-top: 16px;
+  padding-left: 11px;
 }
 
 
@@ -610,6 +536,7 @@ input {
 /* Scaled Down Menu */
 .menu-btn {
   position: absolute;
+  position: fixed;
   z-index: 5;
   right: 35px;
   top: 35px;
