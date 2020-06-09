@@ -725,6 +725,12 @@ input:hover, input:focus {
 
 
 /* i card that expands */
+.container {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+
 .inner {
   background: rgb(9, 201, 153);
   padding: 1em;
@@ -880,6 +886,10 @@ input:hover, input:focus {
   font-size: 25px;
   color: #061D37;
 }
+
+/* Contact */
+.container {
+  display: none;
 
 }
 
