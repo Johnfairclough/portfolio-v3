@@ -1,4 +1,5 @@
 const swup = new Swup();
 
-location.reload();
-return false;
+window.location.reload() {
+    return;
+};

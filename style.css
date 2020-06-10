@@ -317,7 +317,25 @@ background: linear-gradient(0deg, rgba(0,17,43,1) 0%, rgba(43,51,64,1) 100%);
   float: right;
   text-align: left;
   margin-right: 10px;
+  background: #f0f2f5;
+  padding: 10px;
 }
+
+section {
+  background: #3f424a;
+}
+
+
+/* Pallette 
+
+#35475F; - blue
+#D4B996; - beige
+#061D37; - navy
+#3f424a; - slate
+#c92d02; - orange
+#0351a3 - blue royal
+#f0f2f5; - light blue 
+*/
 
 .modal-info h1 {
   padding-top: 25%;
