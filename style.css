@@ -313,17 +313,15 @@ background: linear-gradient(0deg, rgba(0,17,43,1) 0%, rgba(43,51,64,1) 100%);
 
 .modal-info {
   width: 33%;
-  height: 60%;
   float: right;
   text-align: left;
   margin-right: 10px;
   background: #f0f2f5;
-  padding: 10px;
+  margin-top: 100px;
+  padding: 10px 20px 110px 20px;
 }
 
-section {
-  background: #3f424a;
-}
+
 
 
 /* Pallette 
@@ -338,7 +336,6 @@ section {
 */
 
 .modal-info h1 {
-  padding-top: 25%;
   padding-bottom: 60px;
 }
 
