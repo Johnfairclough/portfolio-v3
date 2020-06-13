@@ -154,11 +154,15 @@ header {
   font-size: 1em;
   opacity: 1;
   color: #fff;
+  transition: 0.2s ease;
 }
 
 .navigation ul li a:hover {
 opacity: 0.7;
+transition: 0.2s ease;
 }
+
+
 
 /* FOOTER */
 
@@ -171,6 +175,9 @@ footer {
   position: absolute;
   position: static;
   bottom: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
 }
 
 .footer-social {
@@ -201,12 +208,18 @@ footer {
   transition: 0.5s ease;
 }
 
-.line {
-  width: 60%;
-  border-top: 0.5px solid #35475F;
-  margin: 0 20%;
-  margin-top: 30px;
-}
+
+
+/* Pallette 
+
+#35475F; - blue
+#D4B996; - beige
+#061D37; - navy
+#3f424a; - slate
+#c92d02; - orange
+#0351a3; - blue royal
+#f0f2f5; - light blue 
+*/
 
 .rights {
   color: white;
@@ -252,7 +265,11 @@ footer {
 }
 
 #home-title h3 {
-  font-weight: lighter;
+  width: 110px;
+  padding: 5px;
+  border-radius: 3px;
+  height: 35px;
+  font-weight: bolder;
   opacity: 0;
   -webkit-animation: fadein 6s ease forwards; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 6s ease forwards; /* Firefox < 16 */
@@ -265,6 +282,7 @@ footer {
 
 
 #home-title h1 {
+  padding-top: 10px;
   font-size: 4em;
   opacity: 0;
   -webkit-animation: fadein 6s ease forwards; /* Safari, Chrome and Opera > 12.1 */
@@ -277,30 +295,49 @@ footer {
 }
 
 #home-title p {
+  width: 60%;
   opacity: 0;
-  -webkit-animation: fadein 6s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 6s ease forwards; /* Firefox < 16 */
-   -ms-animation: fadein 6s ease forwards; /* Internet Explorer */
-    -o-animation: fadein 6s ease forwards;/* Opera < 12.1 */
-       animation: fadein 6s ease forwards;
+  padding-bottom: 20px;
+  -webkit-animation: fadein 5.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5.5s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 5.5s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 5.5s ease forwards;/* Opera < 12.1 */
+       animation: fadein 5.5s ease forwards;
        animation-delay: 5.5s;
        padding-top: 30px;
+
+       
+}
+
+.box {
+
 }
 
 
-.line3 {
-  border-bottom: 0.5px solid #35475F;
-  width: 100%;
-  opacity: 0;
-  -webkit-animation: fadein 2s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s ease forwards; /* Firefox < 16 */
-   -ms-animation: fadein 2s ease forwards; /* Internet Explorer */
-    -o-animation: fadein 2s ease forwards;/* Opera < 12.1 */
-       animation: fadein 2s ease forwards;
-       animation-delay: 4s;
+
+.lang {
+  display: flex;
+  margin-top: 20px;
+  width: 490px; 
+  padding: 10px;
+  background: #f0f2f5; 
+  border-radius: 10px;
 }
 
+.lang h4 {
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
 
+.lang i {
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.lang div {
+text-align: center;
+}
 
 
 /* Pallette 
@@ -315,6 +352,72 @@ footer {
 */
 
 
+
+.lang .l1 {
+  opacity: 0;
+  -webkit-animation: fadein 7s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 7s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 7s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 7s ease forwards;/* Opera < 12.1 */
+       animation: fadein 7s ease forwards;
+       animation-delay: 7s;
+}
+
+
+.lang .l2 {
+  opacity: 0;
+  -webkit-animation: fadein 8.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 8.5s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 8.5s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 8.5s ease forwards;/* Opera < 12.1 */
+       animation: fadein 8.5s ease forwards;
+       animation-delay: 8.5s;
+  
+}
+
+.lang .l3 {
+  opacity: 0;
+  -webkit-animation: fadein 9s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 9s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 9s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 9s ease forwards;/* Opera < 12.1 */
+       animation: fadein 9s ease forwards;
+       animation-delay: 9s;
+}
+
+
+.lang .l4 {
+  opacity: 0;
+  -webkit-animation: fadein 9.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 9.5s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 9.5s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 9.5s ease forwards;/* Opera < 12.1 */
+       animation: fadein 9.5s ease forwards;
+       animation-delay: 9.5s;
+}
+
+.lang .l5 {
+  opacity: 0;
+  -webkit-animation: fadein 10s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 10s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 10s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 10s ease forwards;/* Opera < 12.1 */
+       animation: fadein 10s ease forwards;
+       animation-delay: 10s;
+  
+}
+
+.lang .l6 {
+  padding-left: 10px;
+  opacity: 0;
+  -webkit-animation: fadein 11s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 11s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 11s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 11s ease forwards;/* Opera < 12.1 */
+       animation: fadein 11s ease forwards;
+       animation-delay: 11s;
+  
+}
 
 
 
@@ -390,7 +493,6 @@ footer {
 }
 
 .modal-content {
-  background-color: #fefefe;
   margin: 10vh auto;
   padding: 20px;
   border: 1px solid #888;
@@ -400,7 +502,7 @@ footer {
 
 
 .close {
-  color: #061D37;
+  color: #fff;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -447,16 +549,19 @@ footer {
 */
 
 .modal-info h1 {
-  padding-bottom: 60px;
+  padding: 10px 0 10px 5px;
 }
 
 .modal-info h3 {
-  padding-bottom: 15px;
+  padding: 10px 0 10px 5px;
 }
 
 .modal-info p {
   padding-bottom: 15px;
   text-align: justify;
+  background-color: #fefefe;
+  width: 100%;
+  padding: 10px 10px 10px 5px;
 }
 
 .modal-info div {
@@ -653,8 +758,13 @@ footer {
   width: 25px;
   height: 25px;
   padding: 20px;
+  transition: 0.3s ease;
 }
 
+.icons:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
 
 a:visited {
   color: black;
@@ -668,6 +778,8 @@ a:visited {
 form {
   text-align: center;
   padding-bottom: 50px;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 form div {
@@ -684,27 +796,27 @@ label {
 input {
   width: 400px;
   height: 30px;
-  border: 1.5px solid #808080;
+  border: 0.8px solid #808080;
   border-radius: 3px;
   padding: 3px;
   margin: 3px;
 }
 
 input:hover, input:focus {
-  border: 1.5px solid #3f424a;
+  border: 0.8px solid #3f424a;
   transition: border 0.5s ease-in-out;
 }
 
 .message {
   height: 60px;
   width: 400px;
-  border: 1.5px solid #808080;
+  border: 0.8px solid #808080;
   padding: 3px;
   border-radius: 3px;
 }
 
 .message:hover, input:focus {
-  border: 1.5px solid #3f424a;
+  border: 0.8px solid #3f424a;
   transition: border 0.5s ease-in-out;
 }
 
@@ -715,17 +827,17 @@ input:hover, input:focus {
   color: #fff;
   padding: 6px;
   border-radius: 3px;
+  transition: 0.5s ease;
 
 }
 
 .submit:hover {
   cursor: pointer;
   text-decoration: underline;
+  opacity: 0.9;
+  transition: 0.5s ease;
 }
 
-#thanks {
-  text-align: center;
-}
 
 
 
@@ -758,7 +870,13 @@ input:hover, input:focus {
 }
 
 .menu-btn.close .btn-line {
-  background: #fff;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.menu-btn.close .btn-line:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .menu-btn.close .btn-line:nth-child(1) {
@@ -795,12 +913,15 @@ input:hover, input:focus {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: #35475F;
+  background: #c92d02;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
   padding-top: 100px;
 }
+
+
+
 
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
@@ -817,14 +938,18 @@ input:hover, input:focus {
 
 .menu .nav-item.current>a,
 .current {
-  color: #8F98A7;
+  color:  #fff;
+  cursor: default;
+  opacity: 0.8;
+}
+
+.current:hover {
+  color: #0351a3;
   cursor: default;
 }
 
-.menu .nav-item.current>a,
-.current:hover {
-  color: #8F98A7;
-  cursor: default;
+.nav-link {
+  font-size: 25px !important;
 }
 
 .menu .nav-link {
@@ -834,14 +959,13 @@ input:hover, input:focus {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: bolder;
   transition: all 0.3s ease 0.1s;
   padding-top: 30px;
+  transition: 0.3s;
 }
 
-.menu .nav-link:hover {
-  color: #c92d02;
-}
+
 
 /* Pallette 
 
@@ -850,7 +974,7 @@ input:hover, input:focus {
 #061D37; - navy
 #3f424a; - slate
 #c92d02; - orange
-#0351a3 - blue royal
+#0351a3; - blue royal
 #f0f2f5; - light blue 
 */
 
@@ -877,6 +1001,7 @@ input:hover, input:focus {
 
 .responsive-logo {
   padding-top: 100px;
+  font-size: 200px;
 
 }
 
@@ -1073,13 +1198,15 @@ input:hover, input:focus {
 
 
 @media screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 2em;
+  }
   
   .modal-info h1 {
     padding-top: 10%;
     padding-bottom: 14%;
   }
-
-  
   
   .modal-info h3 {
     padding-bottom: 5%;
@@ -1139,7 +1266,43 @@ input:hover, input:focus {
     margin: 0;
     padding-bottom: 70%;
   }
+
+  .lang {
+    display: flex;
+    padding-top: 60px;
+  }
+  
+  .lang h4 {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .lang i {
+    padding-right: 30px;
+    font-size: 1.5em;
+  }
+  
+  .lang div {
+  text-align: center;
+  }
+  #home-title h1 {
+    font-size: 3em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

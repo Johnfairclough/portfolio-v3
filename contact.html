@@ -134,10 +134,10 @@
       </div>
       <nav class="navigation">
           <ul>
-            <li><a href="/index.html" class="focus">HOME</a></li>
+            <li><a href="/index.html">HOME</a></li>
             <li><a href="/portfolio.html">PORTFOLIO</a></li>
             <li><a href="/blog.html">BLOG</a></li>
-            <li><a href="/contact.html">CONTACT</a></li>
+            <li><a href="/contact.html" class="focus">CONTACT</a></li>
           </ul>
         </nav>
 
@@ -150,7 +150,7 @@
   
       <nav class="menu">
         <ul class="menu-nav">
-          <li class="nav-item current">
+          <li class="nav-item ">
             <a href="index.html" class="nav-link">
               HOME
             </a>
@@ -165,7 +165,7 @@
                 BLOG
               </a>
             </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="contact.html" class="nav-link">
               CONTACT
             </a>
@@ -322,11 +322,7 @@
 
 
 <div class="form">
-    <form name="contact"
-method="POST"
-data-netlify="true"
-id="form"
-action="thankYou.html">
+    <form id="form" netlify>
 <div>
   <label>Name</label>
   <br />
@@ -334,7 +330,7 @@ action="thankYou.html">
 name="name"
 class=""
 id="input_name"
-placeholder="Name.."/>
+/>
 </div>
 <div>
   <label>Email</label>
@@ -343,7 +339,7 @@ placeholder="Name.."/>
 name="name"
 class=""
 id="input_name"
-placeholder="Email.."/>
+/>
 </div>
 <div>
   <label>Message</label>
@@ -352,7 +348,7 @@ placeholder="Email.."/>
     <textarea name="message"
 id="input_message"
 class="message"
-placeholder="Message.."
+
 style="resize: none;">
 </textarea>
 </label>
