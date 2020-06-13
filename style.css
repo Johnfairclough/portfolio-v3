@@ -1198,6 +1198,9 @@ input:hover, input:focus {
 
 
 @media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
 
   h1 {
     font-size: 2em;
