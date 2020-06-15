@@ -1148,16 +1148,7 @@ input:hover, input:focus {
   .close {
     position: absolute;
     right: 5px;
-
 }
-
-.close:hover,
-.close:focus {
-  color: #35475F;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 
 .modal-content img {
   width: 80%; 
@@ -1173,20 +1164,10 @@ input:hover, input:focus {
 font-size: 20px;
 }
 
-.modal-info h3 {
-
-}
-
 .modal-info p {
   margin: 0;
 }
 
-.modal-info div {
-}
-
-.lang {
-  grid-gap: 0;
-}
 
 
 .view-site {
@@ -1231,8 +1212,7 @@ font-size: 20px;
 
 
 .view-code i {
-  transition: 1s ease-in-out;
-  padding-left: 5px;
+  float: right; 
 }
 
 .view-code:hover i {
@@ -1264,10 +1244,11 @@ font-size: 20px;
 }
 
 .testimonial {
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 20%;
+  margin: 50px auto;
 }
 
 .testimonial img {
