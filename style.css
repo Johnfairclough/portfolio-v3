@@ -298,8 +298,8 @@ footer {
 
 
 .lang {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  width: 80%;
+  display: flex;
   background: #f0f2f5;
   border-radius: 3px;
   padding-bottom: 10px;
