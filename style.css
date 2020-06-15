@@ -1097,6 +1097,15 @@ input:hover, input:focus {
 /* MEDIA QUERIES */
 @media screen and (max-width: 1395px) {
 
+
+
+.home-title {
+  width: 80%;
+}
+
+
+
+/* Porfolio */
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -1121,16 +1130,12 @@ input:hover, input:focus {
     transition: none;
   }
   
-  
   .grid-item:hover {
     transform: none;
     opacity: 1;
     box-shadow: none;
     transition: none;
   }
-
-
-
 
 .modal-content {
   margin: 0;
@@ -1167,59 +1172,6 @@ font-size: 20px;
 .modal-info p {
   margin: 0;
 }
-
-
-
-.view-site {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  background: #c92d02; 
-  color: #fff;
-  width: 120px;
-  text-align: center;
-  border-radius: 25px;
-  margin-top: 30px;
-  padding: 5px;
-  transition: 0.3s ease;
-  border: 1px solid #c92d02; 
-  opacity: 0;
-  -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s ease forwards; /* Firefox < 16 */
-   -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
-    -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
-       animation: fadein 3s ease forwards;
-       animation-delay: 0.5s;
-}
-
-.view-site:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-}
-
-.view-site:hover {
-  padding-right: 24px;
-}
-
-.view-site:hover:after {
-  opacity: 1;
-  right: 10px;
-  transition: 0.5s ease-in-out;
-}
-
-
-
-
-.view-code i {
-  float: right; 
-}
-
-.view-code:hover i {
-  transition: 1s ease-in-out;
-  color: #c92d02;
-}
-
 
 
 
