@@ -284,7 +284,7 @@ footer {
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 1.5s;
+       animation-delay: 1s;
      
 }
 
@@ -295,7 +295,7 @@ footer {
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 2.5s;
+       animation-delay: 1.5s;
 }
 
 
@@ -310,6 +310,7 @@ footer {
 .lang div {
 text-align: center;
 background: #f0f2f5;
+padding: 10px;
 }
 
 .lang i {
@@ -323,7 +324,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 3.5s;
+       animation-delay: 1.5s;
 }
 .lang .l2 {
   opacity: 0;
@@ -332,7 +333,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 4s;
+       animation-delay: 2s;
 }
 .lang .l3 {
   opacity: 0;
@@ -341,7 +342,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 4.5s;
+       animation-delay: 2.5s;
 }
 .lang .l4 {
   opacity: 0;
@@ -350,7 +351,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 5s;
+       animation-delay: 3s;
 }
 .lang .l5 {
   opacity: 0;
@@ -359,7 +360,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 5.5s;
+       animation-delay: 3.5s;
 }
 .lang .l6 {
   opacity: 0;
@@ -368,7 +369,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 6s;
+       animation-delay: 4s;
 }
 
 
@@ -392,7 +393,7 @@ background: #f0f2f5;
    -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
     -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
        animation: fadein 3s ease forwards;
-       animation-delay: 0.5s;
+       animation-delay: 3.5s;
        white-space: nowrap;
 }
 
