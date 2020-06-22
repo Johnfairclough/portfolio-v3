@@ -373,6 +373,17 @@ padding: 10px;
 }
 
 
+.btn-home {
+  opacity: 0;
+  -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s ease forwards; /* Firefox < 16 */
+   -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
+    -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
+       animation: fadein 3s ease forwards;
+       animation-delay: 3.5s;
+}
+
+
 /* View Work Btn */
 .view-btn {
   cursor: pointer;
@@ -385,16 +396,8 @@ padding: 10px;
   border-radius: 25px;
   margin-top: 30px;
   padding: 5px;
-  transition: 0.3s ease;
   border: 1px solid #c92d02; 
-  opacity: 0;
-  -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s ease forwards; /* Firefox < 16 */
-   -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
-    -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
-       animation: fadein 3s ease forwards;
-       animation-delay: 3.5s;
-       white-space: nowrap;
+  white-space: nowrap;
 }
 
 .view-btn:after {
