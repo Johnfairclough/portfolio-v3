@@ -398,6 +398,7 @@ padding: 10px;
   padding: 5px;
   border: 1px solid #c92d02; 
   white-space: nowrap;
+  transition: 0.3s;
 }
 
 .view-btn:after {
