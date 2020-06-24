@@ -255,7 +255,7 @@ footer {
 
 
 .home-title {
-  width: 40%;
+  width: 80%;
   text-align: left;
   margin-top: 20%;
   margin: 20% 50% 0 10%;
@@ -289,6 +289,7 @@ footer {
 }
 
 .home-title p {
+  max-width: 550px;
   opacity: 0;
   -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 3s ease forwards; /* Firefox < 16 */
@@ -1119,7 +1120,7 @@ margin-top: 30px;
 
 
 .home-title {
-  width: 80%;
+
 }
 
 
