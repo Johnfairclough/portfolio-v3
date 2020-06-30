@@ -943,7 +943,12 @@ input:hover, input:focus {
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
   padding-top: 10px;
+  display: flex;
+  flex-flow: column;
+  white-space: nowrap;
+  overflow: hidden;
 }
+
 
 /* Pallette 
 #35475F; - blue
@@ -1276,10 +1281,6 @@ font-size: 20px;
   }
 
   .menu-nav {
-    display: flex;
-    flex-flow: column;
-    white-space: nowrap;
-    overflow: hidden;
     margin: 0;
     padding-bottom: 70%;
   }
