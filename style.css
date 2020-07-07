@@ -705,8 +705,15 @@ padding: 10px;
 .details img {
   height: 150px;
   border-radius: 50%;
+} 
+
+.fa-code {
+  padding-right: 9px !important;
 }
 
+.fas {
+  padding-right: 15px;
+}
 
 .copy {
   width: 30px;
