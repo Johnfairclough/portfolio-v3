@@ -808,6 +808,12 @@ form {
   font-weight: lighter;
 }
 
+.fa-info-circle {
+  padding-right: 10px;
+  color:  #c92d02;
+}
+
+
 form div {
   padding-top: 40px;
 }
