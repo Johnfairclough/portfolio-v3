@@ -252,8 +252,6 @@ footer {
 }
 
 
-
-
 .home-title {
   width: 80%;
   text-align: left;
@@ -289,6 +287,7 @@ footer {
 }
 
 .home-title p {
+  width: 80%;
   max-width: 550px;
   opacity: 0;
   -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
@@ -303,15 +302,18 @@ footer {
 .lang {
   display: flex;
   flex-wrap: wrap;
-  border-radius: 3px;
+  margin-top: 30px;
   padding-bottom: 10px;
-  width: 100%;
+  width: 80%;
 }
 
 .lang div {
 text-align: center;
 background: #f0f2f5;
 padding: 10px;
+border-radius: 3%;
+width: 150px;
+margin: 3px;
 }
 
 .lang i {
@@ -395,7 +397,7 @@ padding: 10px;
   width: 120px;
   text-align: center;
   border-radius: 25px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 5px;
   border: 1px solid #c92d02; 
   white-space: nowrap;
@@ -740,6 +742,8 @@ padding: 10px;
   position: relative;
   display: inline-block;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .popup .popuptext {
@@ -785,8 +789,8 @@ padding: 10px;
   color: #35475F;
   width: 25px;
   height: 25px;
-  padding: 20px;
   transition: 0.3s ease;
+  margin: 30px 40px;
 }
 
 .icons:hover {
@@ -797,7 +801,7 @@ padding: 10px;
 
 .form {
   flex: 50%;
-  height: 500px;
+  height: 600px;
 }
 
 form {
@@ -806,13 +810,21 @@ form {
   padding-bottom: 50px;
   font-size: 12px;
   font-weight: lighter;
+
 }
 
 .fa-info-circle {
-  padding-right: 10px;
-  color:  #c92d02;
+  padding-right: 5px;
+  color:  #35475F;    
 }
 
+.info-tab {
+  width: 300px;
+  margin: 0px auto;
+  border-radius: 30px;
+  padding: 5px;
+ 
+}
 
 form div {
   padding-top: 40px;
@@ -826,7 +838,8 @@ label {
 
 
 input {
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
   height: 30px;
   border: 0.8px solid #808080;
   border-radius: 3px;
@@ -841,7 +854,8 @@ input:hover, input:focus {
 
 .message {
   height: 60px;
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
   border: 0.8px solid #808080;
   padding: 3px;
   border-radius: 3px;
@@ -853,7 +867,8 @@ input:hover, input:focus {
 }
 
 .submit {
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
   border: 1px solid #35475F;
   background: #35475F;
   color: #fff;
@@ -945,7 +960,7 @@ input:hover, input:focus {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: #3f424a;
+  background-image: linear-gradient(to bottom, #3f424a, #333845, #262f41, #18263c, #061d37);
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -985,13 +1000,11 @@ input:hover, input:focus {
 
 .menu .nav-item.current>a,
 .current {
-  color:  #fff;
   cursor: default;
   opacity: 0.8;
 }
 
 .current:hover {
-  color: #0351a3;
   cursor: default;
 }
 
@@ -1015,7 +1028,6 @@ input:hover, input:focus {
 
 
 /* Pallette 
-
 #35475F; - blue
 #D4B996; - beige
 #061D37; - navy
@@ -1131,9 +1143,6 @@ margin-top: 30px;
 
 
 
-.home-title {
-
-}
 
 
 
@@ -1254,14 +1263,22 @@ font-size: 20px;
     font-size: 2em;
   }
   
-
   
+
+
   
   .contact {
     display: inline-block;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
   }
+
+
+.details {
+  padding: 40px 3px;
+  font-size: 12px;
+}
 
   .navigation {
     display: none;
