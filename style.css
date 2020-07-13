@@ -790,6 +790,7 @@ padding: 0 10px;
   height: 25px;
   transition: 0.3s ease;
   margin: 30px 40px;
+  font-size: 40px;
 }
 
 .icons:hover {
