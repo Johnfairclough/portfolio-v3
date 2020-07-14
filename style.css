@@ -245,7 +245,7 @@ footer {
 
 /* HOME */
 #home {
-  height: 110vh;
+  height: 140vh;
   min-height: 100%;
   width: 100%;
 }
@@ -1185,7 +1185,7 @@ margin-top: 30px;
 }
 
 .modal-content img {
-  width: 70%; 
+  width: 80%; 
   margin: 10px auto;
 }
 
@@ -1201,6 +1201,8 @@ font-size: 20px;
 .modal-info p {
   margin: 0;
 }
+
+
 
 
 
