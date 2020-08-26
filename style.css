@@ -245,8 +245,6 @@ footer {
 
 /* HOME */
 #home {
-  height: 100vh;
-  min-height: 100%;
   width: 100%;
 }
 
@@ -254,8 +252,7 @@ footer {
 .home-title {
   width: 80%;
   text-align: left;
-  margin-top: 20%;
-  margin: 20% 50% 0 10%;
+  margin: 20% 50% 10% 10%;
   color: #061D37;
 }
 
