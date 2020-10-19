@@ -427,6 +427,7 @@ margin: 3px;
 
 /* PORTFOLIO */
 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
@@ -542,8 +543,9 @@ margin: 3px;
 }
 
 .modal-info {
+  padding: 10px;  
+  padding-bottom: 20px;
   text-align: left;
-  margin: 0 10px; 
 }
 
 /* Pallette 
@@ -563,21 +565,25 @@ background: #35475F;
 color: #fff;
 margin: 0;
 padding: 0 10px;
+text-align: left;
 }
 
 .modal-info h3 {
+  text-align: left;
 }
 
 .modal-info p {
-  text-align: justify;
   width: 100%;
   margin: 5px 0;
   padding: 10px; 
+  text-align: left;
+
 }
 
 .modal-info div {
   font-size: 25px;
   color: #061D37;
+
 }
 
 
@@ -594,30 +600,9 @@ padding: 0 10px;
   padding: 5px;
   transition: 0.3s ease;
   border: 1px solid #c92d02; 
-  opacity: 0;
-  -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s ease forwards; /* Firefox < 16 */
-   -ms-animation: fadein 3s ease forwards; /* Internet Explorer */
-    -o-animation: fadein 3s ease forwards; /* Opera < 12.1 */
-       animation: fadein 3s ease forwards;
-       animation-delay: 0.5s;
+
 }
 
-.view-site:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-}
-
-.view-site:hover {
-  padding-right: 24px;
-}
-
-.view-site:hover:after {
-  opacity: 1;
-  right: 10px;
-  transition: 0.5s ease-in-out;
-}
 
 
 
@@ -632,19 +617,27 @@ padding: 0 10px;
   color: #c92d02;
 }
 
+
 .testimonial {
-  width: 60%;
   display: flex;
   align-items: center;
-  margin: 30px 20% 100px 20%;
+  max-width: 1000px;
   text-align: justify;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 50px 10px;
+  text-align: center;
 }
+
 
 .testimonial img {
   border-radius: 50%;
   width: 150px !important;
   height: 150px !important;
-  margin-right: 40px;
+  margin-right: 40px;  
+  margin-right: 0;
+  padding: 20px;
 }
 
 .testimonial h2 {
@@ -655,10 +648,6 @@ padding: 0 10px;
   font-size: 14px;
   padding: 6px 0;
 }
-
-
-
-
 
 
 
@@ -1306,13 +1295,21 @@ font-size: 20px;
     padding-top: 5px;
   }
 
-  .testimonial {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
+
+  .testimonial .p {
+
   }
+
+  .modal-info {
+  
+  }
+
+
+
+
+
+
+
 }
 
 
