@@ -8,9 +8,6 @@
 #f0f2f5; - light blue 
 */
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +39,6 @@ a {
 
 body {
   text-align: center;
-
 }
 
 main {
@@ -83,7 +79,6 @@ from { opacity: 0; }
 to   { opacity: 1; }
 }
 
-
 /* navigation */
 header {
   display: flex;
@@ -97,11 +92,6 @@ header {
   height: 100px;
   position: relative;
 }
-
-
-
-
-
 
 /* LOGO */
 .head-logo {
@@ -174,10 +164,7 @@ opacity: 0.7;
 transition: 0.2s ease;
 }
 
-
-
 /* FOOTER */
-
 footer {
   height: 25vh;
   width: 100%;
@@ -205,7 +192,6 @@ footer {
   padding-top: 5px;
   padding-left: 1px;
   margin: 0 6px;
-
 }
 
 .line {
@@ -225,8 +211,6 @@ footer {
   transition: 0.5s ease;
 }
 
-
-
 .rights {
   color: white;
   padding-top: 30px;
@@ -239,9 +223,6 @@ footer {
 .rights a:visited {
   color: #c92d02;
 }
-
-
-
 
 /* HOME */
 #home {
@@ -297,7 +278,7 @@ footer {
 
 .lang {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: 20%;
   margin-top: 30px;
   padding-bottom: 10px;
@@ -371,7 +352,6 @@ margin: 3px;
        animation-delay: 4s;
 }
 
-
 .btn-home {
   opacity: 0;
   -webkit-animation: fadein 3s ease forwards; /* Safari, Chrome and Opera > 12.1 */
@@ -382,14 +362,13 @@ margin: 3px;
        animation-delay: 3.5s;
 }
 
-
 /* View Work Btn */
 .view-btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
+  color: white;
   background: #c92d02; 
-  color: #fff;
   width: 120px;
   text-align: center;
   border-radius: 25px;
@@ -400,39 +379,29 @@ margin: 3px;
   transition: 0.3s;
 }
 
-.view-btn:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  color: #fff;
-}
-
-
 .view-btn:hover {
-  padding-right: 24px;
-}
-
-.view-btn:hover:after {
-  opacity: 1;
-  right: 10px;
-  transition: 0.5s ease-in-out;
+  background: white;
+  margin-left: 3px;
+  color: #c92d02;
 }
 
 .view-btn a {
-  color: #fff;
-  font-weight: bolder;
+  color: white;
+  font-weight: bold;
+}
+
+.view-btn:hover a {
+  color: #c92d02;
+
 }
 
 
-
 /* PORTFOLIO */
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   grid-gap: 1rem;
-  margin: 100px 10px 200px 10px;
+  margin: 100px 10px 100px 10px;
   cursor: pointer;
   transition: transform 1s ease-in-out;
   opacity: 1;
@@ -475,7 +444,6 @@ margin: 3px;
 
 
 /* Popup Box */
-
 .modal {
   display: none;
   position: fixed;
@@ -498,7 +466,6 @@ margin: 3px;
   margin: 10vh auto;
   border: 1px solid #888;
   width: 100%;
-  height: 80%;
   background: #fff;
   display: flex;
 }
@@ -538,26 +505,16 @@ margin: 3px;
 
 
 .modal-content img {
-  width: 800px; 
+  width: 100%; 
+  max-width: 800px;
   float: left;
 }
 
 .modal-info {
-  padding: 10px;  
+  padding: 0 10px 10px 10px;  
   padding-bottom: 20px;
   text-align: left;
 }
-
-/* Pallette 
-#35475F; - blue
-#D4B996; - beige
-#061D37; - navy
-#3f424a; - slate
-#c92d02; - orange
-#0351a3 - blue royal
-#f0f2f5; - light blue 
-*/
-
 
 
 .modal-info h1 {
@@ -577,15 +534,12 @@ text-align: left;
   margin: 5px 0;
   padding: 10px; 
   text-align: left;
-
 }
 
 .modal-info div {
   font-size: 25px;
   color: #061D37;
-
 }
-
 
 .view-site {
   cursor: pointer;
@@ -602,10 +556,6 @@ text-align: left;
   border: 1px solid #c92d02; 
 
 }
-
-
-
-
 
 .view-code i {
   transition: 1s ease-in-out;
@@ -630,7 +580,6 @@ text-align: left;
   text-align: center;
 }
 
-
 .testimonial img {
   border-radius: 50%;
   width: 150px !important;
@@ -640,22 +589,10 @@ text-align: left;
   padding: 20px;
 }
 
-.testimonial h2 {
-
-}
-
 .testimonial h3 {
   font-size: 14px;
   padding: 6px 0;
 }
-
-
-
-
-
-
-
-
 
 
 /* CONTACT */
@@ -861,10 +798,6 @@ input:hover, input:focus {
 
 
 
-
-
-
-
 /* MOBILE MENU */
 /* Scaled Down Menu */
 .menu-btn {
@@ -958,7 +891,6 @@ input:hover, input:focus {
 
 
 
-
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
 }
@@ -1039,86 +971,10 @@ margin-top: 30px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
+
+/* Larger Screens */
 @media screen and (max-width: 1395px) {
-
-
-
-
-
 
 /* Porfolio */
   .grid-container {
@@ -1155,7 +1011,6 @@ margin-top: 30px;
 .modal-content {
   margin: 0;
   width: 100%;
-  height: 100%;
 }
 
 .modal-split {
@@ -1188,25 +1043,6 @@ font-size: 20px;
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 /* Contact */
 .container {
   display: none;
@@ -1227,9 +1063,7 @@ font-size: 20px;
 }
 
 
-
-
-
+/* Mobile Devices  */
 @media screen and (max-width: 800px) {
   body {
     width: 100%;
@@ -1293,22 +1127,6 @@ font-size: 20px;
   .rights {
     padding-top: 5px;
   }
-
-
-  .testimonial .p {
-
-  }
-
-  .modal-info {
-  
-  }
-
-
-
-
-
-
-
 }
 
 
@@ -1333,4 +1151,4 @@ font-size: 20px;
 
 
 
-.
+
